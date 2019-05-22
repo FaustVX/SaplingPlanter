@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "sapling_planter:oak_planter",
+    "sapling_planter:spruce_planter",
+    "sapling_planter:birch_planter",
+    "sapling_planter:jungle_planter",
+    "sapling_planter:acacia_planter",
+    "sapling_planter:dark_oak_planter"
+  ]
+}
