@@ -1,2 +1,2 @@
-execute as @s[nbt={Item:{id:"minecraft:spruce_sapling"}}] at @s if block ~ ~-.75 ~ #minecraft:dirt_like run tag @s add faustvx.plant
+execute as @s[nbt={Item:{id:"minecraft:spruce_sapling"}}] if score _spruceSapling.activated faustvx.planter matches 1 at @s if block ~ ~-.75 ~ #minecraft:dirt_like run tag @s add faustvx.plant
 execute as @s[nbt={Item:{id:"minecraft:spruce_sapling"}},tag=faustvx.plant] at @s run setblock ~ ~.25 ~ minecraft:spruce_sapling
